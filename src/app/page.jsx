@@ -1,11 +1,7 @@
-import Image from 'next/image'
-import imageSize from 'image-size';
+
 
 export default function Home() {
-    const images = {
-        'groupphoto.png': [imageSize('./public/groupphoto.png').width, imageSize('./public/groupphoto.png').height],
-        'groupphotoCopy.png': [imageSize('./public/groupphoto.png').width, imageSize('./public/groupphoto.png').height],
-    };
+    const images = [ "groupphoto.png", "groupphotoCopy.png" ];
   return (
     <>
     <header className="bg-blue-500 text-white sticky top z-10">
@@ -26,12 +22,12 @@ export default function Home() {
             </section>
         </header>
     <main className="min-h-screen bg-slate-50" id="main">
-        <section className="px-40 py-4 mx-auto flex flex justify-center -nowrap justify-center">
+        <section className="p-4mx-auto flex flex justify-center -nowrap justify-center">
             <div className="relative">
-                <ul className="flex p-4 h-96 w-screen">
-                    {Object.entries(images).map(([src, dimensions]) => (
-                        <li key={src} className="relative">
-                            <Image src={"/" + src} alt={"Photo from F=Math"} width="0" height="0" className="w-full h-auto" sizes="100vw"/>
+                <ul className="flex p-4 h-auto w-screen">
+                    {images.map((src) => (
+                        <li key={src} className="relative w-screen h-auto">
+                            <img src={"/" + src} alt="photo" />
                         </li>
                     ))}
                 </ul>
