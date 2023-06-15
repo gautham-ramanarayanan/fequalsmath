@@ -9,7 +9,7 @@ export default function NavigationBar() {
                 </h1>
                 <button className="md:hidden text-3xl">&#9776;</button>
                 <nav className="hidden md:inline space-x-8">
-                    <Link href="#Instructors" className="hover:opacity-70">Instructors</Link>
+                    <Link href="#Instructors" className="hover:opacity-70">Our Team</Link>
                     <Link href="#Curriculum" className="hover:opacity-70">Curriculum</Link>
                     <Link href="#Testimonal" className="hover:opacity-70">Testimonial</Link>
                     <Link href="#Events" className="hover:opacity-70">Events</Link>
