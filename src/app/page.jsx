@@ -28,14 +28,14 @@ export default function Home() {
 
     function instructorCard(instructor, index) {
         const image = (
-            <div className="basis-1/3 p-4">
-                <img src={instructor.img} className="rounded-full max-w-xs sm:max-w-full" />
+            <div className="basis-1/3 p-4 w-full">
+                <img src={instructor.img} className="rounded-full max-w-xs w-full" />
             </div>
         );
         const description = (
             <div className="basis-2/3 flex flex-col">
-                        <p className="px-4 py-1 text-lg text-txt font-bold">{instructor.name}</p>
-                        <p className="px-4 py-1 text-md text-txt font-medium">
+                        <p className="sm:px-4 py-1 text-lg text-txt font-bold">{instructor.name}</p>
+                        <p className="sm:px-4 py-1 text-md text-txt font-medium">
                             {instructor.description}
                         </p>
                     </div>
@@ -87,7 +87,7 @@ export default function Home() {
             </h1>
             <ul>
                 {instructors.map((instructor, index) => (
-                    <li key={instructor.name} className="flex max-w-6xl items-center justify-between min-h-full p-4">
+                    <li key={instructor.name} className="flex max-w-6xl items-center justify-between min-h-full py-2">
                         {instructorCard(instructor, index)}
                     </li>
                 ))}
