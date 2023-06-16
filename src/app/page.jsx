@@ -1,4 +1,6 @@
 import Carousel from "../../components/Carousel";
+import InstructorCard from "../../components/InstructorCard";
+import Instructors from "../../components/Instructors";
 import NavigationBar from "../../components/NavigationBar";
 import 'fs';
 
@@ -23,12 +25,17 @@ export default function Home() {
             name: "Kevin Wang 3 (Placeholder)",
             img: "/kavnwang2.png",
             description: "Daniel is a talented high school junior who wishes to use his talents in math to benefit his community. His notable achievements include being a USAJMO winner and scoring a 12 on the 2022 AIME. Furthermore, he has tutored high school math for a nonprofit organization named Ace Academy. He looks forward to meeting everyone in class!"
+        },
+        {
+            name: "Placeholder",
+            img: "/fakesourceimg.png",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }
     ];
 
     function instructorCard(instructor, index) {
         const image = (
-            <div className="basis-1/3 p-4 w-full">
+            <div className="basis-1/3 p-4 w-full flex">
                 <img src={instructor.img} className="rounded-full max-w-xs w-full" />
             </div>
         );
@@ -85,14 +92,15 @@ export default function Home() {
             <h1 className="text-4xl text-txt font-bold p-2">
                 Our Team
             </h1>
-            <ul>
+            <Instructors instructors={instructors} />
+            {/* <ul>
                 {instructors.map((instructor, index) => (
                     <li key={instructor.name} className="flex max-w-6xl items-center justify-between min-h-full py-2">
                         {instructorCard(instructor, index)}
                     </li>
                 ))}
                 
-            </ul>
+            </ul> */}
         </div>
     </main>
     
