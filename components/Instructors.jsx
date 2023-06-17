@@ -5,7 +5,7 @@ import InstructorCard from "./InstructorCard";
 import SlideButtons from "./SlideButtons";
 
 export default function Instructors({ instructors }) {
-    const isMobile = useMediaQuery({ query: `(max-width: 640px)` });
+    const isMobile = useMediaQuery({ query: "(max-width: 640px)" });
     const [ page, setPage ] = useState(0);
     const [ pageSmall, setPageSmall ] = useState(0);
 
