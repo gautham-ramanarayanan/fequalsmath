@@ -3,6 +3,8 @@ import InstructorCard from "../../components/InstructorCard";
 import Instructors from "../../components/Instructors";
 import NavigationBar from "../../components/NavigationBar";
 import 'fs';
+import TestimonialCard from "../../components/TestimonialCard";
+import Testimonials from "../../components/Testimonials";
 
 
 export default function Home() {
@@ -33,37 +35,21 @@ export default function Home() {
         }
     ];
 
-    function instructorCard(instructor, index) {
-        const image = (
-            <div className="basis-1/3 p-4 w-full flex">
-                <img src={instructor.img} className="rounded-full max-w-xs w-full" />
-            </div>
-        );
-        const description = (
-            <div className="basis-2/3 flex flex-col">
-                        <p className="sm:px-4 py-1 text-lg text-txt font-bold">{instructor.name}</p>
-                        <p className="sm:px-4 py-1 text-md text-txt font-medium">
-                            {instructor.description}
-                        </p>
-                    </div>
-        );
-        if (index % 2 === 0) {
-            return (
-                <div className="flex flex-col sm:flex-row items-center">
-                    {image}
-                    {description}
-                </div>
-            )
-        } else {
-            return (
-                <div className="flex flex-col sm:flex-row-reverse items-center">
-                    {image}
-                    {description}
-                </div>
-            )
-        }
-    }
+    const testimonials = [
+        {
+            name: "Parent of 9th grade student",
+            comment: "A teenage instructor will surprise you with his passion and dedication to math. Your kids will not only sharpen their mathematics skills but also get to know an inspiring role model!"
+        },
+        {
+            name: "Jenny C.",
+            comment: "This summer camp has great handouts and I learned a lot from the lecturing and work and help we did! It really enriches math and preps for you."
+        },
+        {
+            name: "Allen T.",
+            comment: "The summer camp was fun and engaging. I learned a lot. The teacher made the learning fun."
+        },
 
+    ]
 
   return (
     <>
@@ -93,14 +79,17 @@ export default function Home() {
                 Our Team
             </h1>
             <Instructors instructors={instructors} />
-            {/* <ul>
-                {instructors.map((instructor, index) => (
-                    <li key={instructor.name} className="flex max-w-6xl items-center justify-between min-h-full py-2">
-                        {instructorCard(instructor, index)}
-                    </li>
-                ))}
-                
-            </ul> */}
+        </div>
+    </main>
+    <main className="min-h-min bg-background" id="Curriculum">
+        <div id="placeholder" className="h-96"></div>
+    </main>
+    <main className="min-h-min bg-background-second" id="Testimonial">
+        <div className="p-8 mx-auto flex flex-col items-center justify-center max-w-4xl">
+            <h1 className="text-4xl text-txt font-bold p-4">
+                Testimonials
+            </h1>
+            <Testimonials testimonials={testimonials} maxCount={3} />
         </div>
     </main>
     

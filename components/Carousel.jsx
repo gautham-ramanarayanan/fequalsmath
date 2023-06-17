@@ -1,8 +1,5 @@
 'use client';
 import { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircle, faRegular } from "@fortawesome/free-solid-svg-icons";
-import 'font-awesome/css/font-awesome.min.css';
 import SlideButtons from "./SlideButtons";
 
 
@@ -24,7 +21,7 @@ export default function Carousel({ images }) {
     }
     return (
         <div>
-            <img src={images[index]} width={1279} />
+            <img src={images[index]} width={1279} className="pointer-events-none" />
             <SlideButtons index={index} setIndex={setIndex} number={images.length} />
         </div>
     );

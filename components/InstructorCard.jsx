@@ -1,6 +1,6 @@
 export default function InstructorCard({ instructor, index }) {
     const img = (
-        <div className="basis-1/3 p-4 w-full flex flex-col items-center">
+        <div className="basis-1/3 p-4 w-full flex flex-col items-center pointer-events-none">
             <img src={instructor.img} className="rounded-full max-w-xs w-full" />
         </div>
     );

@@ -11,7 +11,7 @@ export default function NavigationBar() {
                 <nav className="hidden md:inline space-x-8">
                     <Link href="#Instructors" className="hover:opacity-70 scroll-smooth">Our Team</Link>
                     <Link href="#Curriculum" className="hover:opacity-70 scroll-smooth">Curriculum</Link>
-                    <Link href="#Testimonal" className="hover:opacity-70 scroll-smooth">Testimonial</Link>
+                    <Link href="#Testimonial" className="hover:opacity-70 scroll-smooth">Testimonial</Link>
                     <Link href="#Events" className="hover:opacity-70 scroll-smooth">Events</Link>
                     <Link href="/FAQ" className="hover:opacity-70 scroll-smooth">FAQ</Link>
                     <Link href="#Enroll">
