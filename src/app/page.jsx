@@ -3,6 +3,7 @@ import InstructorCard from "../../components/InstructorCard";
 import Instructors from "../../components/Instructors";
 import NavigationBar from "../../components/NavigationBar";
 import Testimonials from "../../components/Testimonials";
+import Hero from "../../components/Hero";
 import { carouselImages, whoweare, instructors, testimonials } from "../globals/globals";
 
 
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <>
     <NavigationBar />
+    <Hero/>
     <main className="min-h-fit bg-background" id="main">
             <div className="block max-h-min">
                 <section className="p-4 mx-auto flex justify-center -nowrap justify-center">
