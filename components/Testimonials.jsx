@@ -15,7 +15,7 @@ export default function Testimonials({ testimonials, maxCount }) {
                         );
                     }
                     return (
-                        <div className="flex">
+                        <div className="flex" key={testimonial.name}>
                             <div className="hidden sm:block basis-1/3" />
                             <TestimonialCard name={testimonial.name} image={testimonial.image} comment={testimonial.comment} />
                         </div>
