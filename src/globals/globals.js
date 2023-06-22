@@ -46,13 +46,13 @@ export const instructors = [
     },
     {
         name: "Nikhil Reddy",
-        img: "/defaultusericon.png",
+        img: "/nikhilreddy.jpg",
         description: "Nikhil is an upcoming Sophomore at Wakeland High School. He scored a 6 on this year's AIME and is currently studying Multivariable Calculus and Differential Equations. Nikhil also pursues mathematics thru the Euler Circle Program, led by a former Stanford professor."
     },
     {
-        name: "Placeholder",
+        name: "Leo Li",
         img: "/fakesourceimg.png",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        description: "Leo is a rising sophomore at Centennial High School. He has qualified for the AIME 3 times and received distinction twice in the AMC 10. In his free time, Leo dabbles in the Physics Olympiad and plays soccer with friends."
     }
 ];
 
@@ -86,23 +86,23 @@ export const currentClasses = [
         cost: "FREE",
         instructor: "",
         schedule: "Thursday 7-8 CDT",
-        description: "",
+        description: "Geometry for AMC 10 level students",
         registrationOpen: true,
     },
     {
         name: "Algebra",
         cost: "FREE",
-        instructor: "",
+        instructor: "Leo Li",
         schedule: "Friday 7-8 CDT",
-        description: "",
+        description: "Algebra for AMC 10 level students",
         registrationOpen: true,
     },
     {
-        name: "Placeholder",
+        name: "Number Theory",
         cost: "FREE",
         instructor: "Nikhil Reddy",
         schedule: "Sat 7-8 CDT",
-        description: "",
+        description: "Number Theory for AMC 10 level students",
         registrationOpen: true,
     },
 ]

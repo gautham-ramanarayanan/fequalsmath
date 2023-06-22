@@ -8,7 +8,7 @@ export default function Testimonials({ testimonials, maxCount }) {
                 .map((testimonial, index) => {
                     if (index % 2 === 0) {
                         return (
-                            <div className="flex">
+                            <div className="flex" key={testimonial.name}>
                                 <TestimonialCard name={testimonial.name} image={testimonial.image} comment={testimonial.comment} />
                                 <div className="hidden sm:block basis-1/3" />
                             </div>

@@ -10,7 +10,7 @@ export default function ClassCard({ classInformation }) {
             <p className={textStyle}>Time: {classInformation.schedule}</p>
             {classInformation.registrationOpen && 
             <Link href="#Enroll" className="space-y-4 block mx-auto p-2 pt-6">
-                <div className="text-txt-light inline bg-primary px-8 py-4 rounded-xl mt-2">
+                <div className="text-txt-light inline bg-primary px-8 py-4 rounded-xl mt-2 hover:opacity-70 scroll-smooth">
                     <p className="font-bold inline">Enroll Now!</p>
                 </div>
             </Link>

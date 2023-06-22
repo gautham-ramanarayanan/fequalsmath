@@ -26,7 +26,7 @@ export default function NavigationBar() {
                             .map((link) => {
                                 if (link.highlight) {
                                     return (
-                                        <Link href={link.link} onClick={() => setIsOpen(false)}>
+                                        <Link key={link.displayName} href={link.link} onClick={() => setIsOpen(false)} className="hover:opacity-70 scroll-smooth">
                                             <div className="text-txt-light inline bg-primary px-8 py-4 rounded-xl">
                                                 <p className="font-bold inline">{link.displayName}</p>
                                             </div>
@@ -34,7 +34,7 @@ export default function NavigationBar() {
                                     );
                                 }
                                 return (
-                                    <Link href={link.link} onClick={() => setIsOpen(false)} className="hover:opacity-70 scroll-smooth">{link.displayName}</Link>
+                                    <Link key={link.displayName} href={link.link} onClick={() => setIsOpen(false)} className="hover:opacity-70 scroll-smooth">{link.displayName}</Link>
                                 );
                             })}
                 </nav>
@@ -51,7 +51,7 @@ export default function NavigationBar() {
                 <div className="block sm:hidden bg-background text-txt top-0 w-screen pt-0 p-4 z-20">
                 <ul>
                     {links.map((link) => (
-                        <li key={link.link} className="pb-4">
+                        <li key={link.displayName} className="pb-4">
                             <Link href={link.link} onClick={() => setIsOpen(false)} className="block hover:opacity-70 scroll-smooth">{link.displayName}</Link>
                         </li>
                     ))}
