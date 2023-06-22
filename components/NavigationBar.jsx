@@ -1,37 +1,12 @@
 "use client";
 
+import { links } from "@/globals/globals";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+
 export default function NavigationBar() {
     const [ isOpen, setIsOpen ] = useState(false);
-    const links = [
-        {
-            displayName: "Our Team",
-            link: "#Instructors"
-        },
-        {
-            displayName: "Curriculum",
-            link: "#Curriculum"
-        },
-        {
-            displayName: "Testimonials",
-            link: "#Testimonial"
-        },
-        {
-            displayName: "Events",
-            link: "#Events"
-        },
-        {
-            displayName: "FAQ",
-            link: "/FAQ"
-        },
-        {
-            displayName: "Enroll",
-            link: "#Enroll",
-            highlight: true
-        },
-    ]
-
+    
     useEffect(() => {
         const handleResize = () => setIsOpen(false);
         window.addEventListener("resize", handleResize);

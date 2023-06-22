@@ -16,11 +16,13 @@ module.exports = {
     },
     colors: {
         "background": {
-            DEFAULT: "#f7fbf4",
-            second: "#ebeee9",
+            DEFAULT: "#f7f7f7",
+            second: "#eeeeee",
+            third: "#2d2e49"
         },
         "primary": {
-            DEFAULT: "#691469"
+            DEFAULT: "#691469",
+            second: "#Eadbed",
         },
         "accent": {
             DEFAULT: "#FFCC36"
