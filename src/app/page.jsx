@@ -56,7 +56,7 @@ export default function Home() {
         </div>
     </main>
     <main className="min-h-min bg-background" id="Enroll">
-        <div className="mx-auto p-8 mt-8 flex flex-col items-center justify-center max-w-4xl rounded-xl shadow-xl">
+        <div className="mx-auto p-8 flex flex-col items-center justify-center max-w-4xl rounded-xl shadow-xl">
             <h1 className="text-4xl text-txt font-bold p-4">
                 Enroll
             </h1>

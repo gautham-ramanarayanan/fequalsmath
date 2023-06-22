@@ -61,7 +61,7 @@ export default function SignUpForm({ currentClasses }) {
     const checkbox = "m-2";
     return (
         <div>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className="text-txt">
                 <label className={labelStyle}>Parent Name: 
                     <br />
                     <input type="text" name="parentName" value={inputs.parentName || ""} onChange={handleChange} className={inputStyling} required/>
