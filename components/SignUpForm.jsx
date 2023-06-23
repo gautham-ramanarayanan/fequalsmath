@@ -39,7 +39,8 @@ export default function SignUpForm({ currentClasses }) {
                 setClasses(values => ({...values, [course.name]: false}));
             }
         } */
-        alert("Form submission currently unavailable");
+        // alert("Form submission currently unavailable");
+         
         /* alert(`Parent Name: ${inputs.parentName}\n
         Parent Email: ${inputs.parentEmail}\n
         Parent Phone: ${inputs.parentCell}\n

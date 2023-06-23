@@ -8,6 +8,7 @@ export default function ClassCard({ classInformation }) {
             <p className={textStyle}>Taught by {classInformation.instructor}</p>
             <p className={textStyle}>Price: {classInformation.cost}</p>
             <p className={textStyle}>Time: {classInformation.schedule}</p>
+            <p className={textStyle}>Location: {classInformation.location}</p>
             {classInformation.registrationOpen && 
             <Link href="#Enroll" className="space-y-4 block mx-auto p-2 pt-6">
                 <div className="text-txt-light inline bg-primary px-8 py-4 rounded-xl mt-2 hover:opacity-70 scroll-smooth">

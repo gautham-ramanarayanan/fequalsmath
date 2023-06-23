@@ -3,9 +3,10 @@ import Instructors from "../../components/Instructors";
 import NavigationBar from "../../components/NavigationBar";
 import Testimonials from "../../components/Testimonials";
 import Hero from "../../components/Hero";
-import { carouselImages, whoweare, instructors, testimonials, currentClasses } from "../globals/globals";
+import { carouselImages, whoweare, instructors, testimonials, currentClasses, currentFormUrl } from "../globals/globals";
 import Courses from "../../components/Courses";
 import SignUpForm from "../../components/SignUpForm";
+import GoogleSignUpForm from "../../components/GoogleSignUpForm";
 
 
 export default function Home() {
@@ -60,8 +61,8 @@ export default function Home() {
             <h1 className="text-4xl text-txt font-bold p-4">
                 Enroll
             </h1>
-            <SignUpForm currentClasses={currentClasses} />
-
+            {/* <SignUpForm currentClasses={currentClasses} /> */}
+            <GoogleSignUpForm />
         </div>
     </main>
     
