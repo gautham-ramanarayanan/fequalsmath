@@ -50,6 +50,10 @@ export const instructors = [
         description: "Nikhil is an upcoming Sophomore at Wakeland High School. He scored a 6 on this year's AIME and is currently studying Multivariable Calculus and Differential Equations. Nikhil also pursues mathematics thru the Euler Circle Program, led by a former Stanford professor. Nikhil will be teaching Number Theory this summer sessions"
     },
     {
+        name: "Yu-Hsiang Yeh",
+
+    },
+    {
         name: "Sohum Uttamchandani",
         img: "/defaultusericon.png",
         description: "Sohum is a high schooler in California. He has qualified for AIME and nearly Junior Math Olympiad, gotten AMC 10 Distinguished Honor Roll, and a earned a perfect score in the most recent AMC 8. In his spare time, Sohum likes to do math, play chess, and practice badminton. Sohum will be teaching Counting and Probability this summer session." 
@@ -74,7 +78,7 @@ export const testimonials = [ // Will only display the first 3 testimonials
 
 export const currentClasses = [
     {
-        name: "Counting and Probability",
+        name: "Counting & Probability",
         cost: "FREE",
         instructor: "Sohum Uttamchandani",
         schedule: "Tue 7-8 CDT",
@@ -115,20 +119,11 @@ export const currentFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSfQAA5b6
 
 export const faqQuestions = [
     {
-        identifier: "Welcome",
-        qas: [
-            {
-                question: "Welcome to the FAQ page",
-                answer: "To find the answers to the questions you have, please click the relevant button on the sidebar."
-            },
-        ],
-    },
-    {
         identifier: "Contact Us",
         qas: [
             {
                 question: "Contact Us",
-                answer: "You may contact us by emailing fequalsmath@gmail.com. We will try our best to respond as quickly as possible."
+                answer: "Welcome to the FAQ Page. Here you can find the answers to some questions commonly asked by parents. If your question is not answered here, you may contact us by emailing fequalsmath@gmail.com. We will try our best to respond as quickly as possible."
             },
         ],
     },
@@ -154,13 +149,13 @@ export const faqQuestions = [
         identifier: "Class Difficulty",
         qas: [
             {
+                question: "Is the AMC 8/AMC 10 class too easy for me?",
+                answer: "In the past, most students have found our classes to be challenging, even if they were initially worried that the class would be too easy. Our AMC 8 class tackles many of the AMC 8 Final Five, and the AMC 10 class takes many problems from the AMC 10 Final Five and the AIME. More likely than not, our classes will not be too easy; however, if you do have this concern, please contact us with your specific situation.",
+            },
+            {
                 question: "My child has not studied Pre-algebra or taken the AMC 8 officially before. Is the AMC 8 class too hard for them?",
                 answer: "We expect all of our students to be algebra-ready before taking our AMC 8 class. In this situation, please check out the AoPS diagnostic found below. Your child should aim for a near-perfect score on the Fundamentals section.",
             },
-            {
-                question: "Is the AMC 8/AMC 10 class too easy for me?",
-                answer: "In the past, most students have found our classes to be challenging, even if they were initially worried that the class would be too easy. Our AMC 8 class tackles many of the AMC 8 Final Five, and the AMC 10 class takes many problems from the AMC 10 Final Five and the AIME. More likely than not, our classes will not be too easy; however, if you do have this concern, please contact us with your specific situation.",
-            }
         ],
         links: [
             {
