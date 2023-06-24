@@ -3,7 +3,7 @@ import Instructors from "../../components/Instructors";
 import NavigationBar from "../../components/NavigationBar";
 import Testimonials from "../../components/Testimonials";
 import Hero from "../../components/Hero";
-import { carouselImages, whoweare, instructors, testimonials, currentClasses, currentFormUrl } from "../globals/globals";
+import { carouselImages, whoweare, instructors, testimonials, currentClasses, currentFormUrl, syllabusLink } from "../globals/globals";
 import Courses from "../../components/Courses";
 import SignUpForm from "../../components/SignUpForm";
 import GoogleSignUpForm from "../../components/GoogleSignUpForm";
@@ -16,16 +16,15 @@ export default function Home() {
     <NavigationBar />
     <main className="min-h-fit bg-background" id="main">
             <div className="block ">
-                <section className="max-h-96 flex flex-col justify-center -nowrap mb-24">
-                    <section className="flex max-h-96 mx-auto">
+                <section className="max-h-96 flex flex-col justify-center -nowrap mb-12">
+                    <section className="flex max-h-96 mx-auto mb-12">
                         <Hero className="flex-grow basis-full" />
                     </section>
-                    <h1 className="font-bold text-3xl mx-auto p-4 text-center text-primary">Summer Session registration is open! <br /> Summer classes are free!</h1>
                 </section>
             </div>
-            <div className="p-4 py-8 mx-auto flex flex-col items-center justify-center max-w-4xl">
+            <div className="p-4 py-8 mx-auto flex flex-col items-center justify-center max-w-4xl mb-16">
                 <h1 className="text-4xl text-txt font-bold p-2">
-                    What is F=Math?
+                    Why F=Math?
                 </h1>
                 <p className="text-lg text-txt font-medium p-4">
                     {whoweare}
@@ -45,7 +44,7 @@ export default function Home() {
             <h1 className="text-4xl text-txt font-bold p-2 pb-4">
                 Current Courses
             </h1>
-            <Courses classes={currentClasses} />
+            <Courses classes={currentClasses} syllabusLink={syllabusLink} />
         </div>
     </main>
     <main className="min-h-min bg-background-second" id="Testimonial">

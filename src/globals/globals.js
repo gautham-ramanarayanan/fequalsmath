@@ -31,13 +31,13 @@ export const carouselImages = [
     "studentseating.png"
 ];
 
-export const whoweare = "F=Math is a non-profit math competition preparation program taught by winners and qualifiers of the USA Junior Math Olympiad. The curriculum is designed not only to prepare students for math competitions, but also for their school math classes. 100% of the program fee will be donated to non-profit organizations.";
+export const whoweare = "F=Math is a non-profit math competition preparation program taught by winners and qualifiers of the USA Math Olympiad. The curriculum is designed to prepare students for math competitions. Our teachers have experience teaching for organizations such as Magic Math, Daily Challenge, and many others. Additionally, 100% of the program fee will be donated to those in need. F=Math has already raised $5,000 for various charities. We are committed to ensuring that every student can learn not only the skills and intuition to succeed in math competitions, but also the critical thinking and problem solving skills Please reach us at fequalsmath@gmail.com for any questions and concerns.";
 
 export const instructors = [
     {
         name: "Kevin Wang",
         img: "/kavnwang3.png",
-        description:"Kevin is an rising senior attending Lebanon Trail High School. He has years of experience competing at the highest level of math competitions, culminating in a top 24 win at this year's junior national olympiad. Furthermore, he has taught English and math competition courses for over two years, and currently works as a teaching assistant for USA IMO coach Po-Shen Loh. Kevin is incredibly passionate about the success and education of his students, and will work to ensure that every student can reach their fullest potential."
+        description:"Kevin is an rising senior attending Lebanon Trail High School. He has years of experience competing at the highest level of math competitions, culminating in a top 24 win at last year's junior national olympiad. Furthermore, he has taught English and math competition courses for over two years, and currently works as a teaching assistant for USA IMO coach Po-Shen Loh. Kevin is incredibly passionate about the success and education of his students, and will work to ensure that every student can reach their fullest potential."
     },
     {
         name: "Leo Li",
@@ -48,6 +48,16 @@ export const instructors = [
         name: "Nikhil Reddy",
         img: "/nikhilreddy.jpg",
         description: "Nikhil is an rising Sophomore at Wakeland High School. He scored a 6 on this year's AIME and is currently studying Multivariable Calculus and Differential Equations. Nikhil also pursues mathematics thru the Euler Circle Program, led by a former Stanford professor. Nikhil will be teaching Number Theory this summer sessions"
+    },
+    {
+        name: "Aaron Zhou",
+        img: "/defaultusericon.png",
+        description: "Aaron is a rising senior attending Plano West Senior High School. He has earned numerous accolades at the national level in math competitions, being a four-time AMC 10 DHR awardee (top 1%) and a USAJMO Honorable Mention. Furthermore, he has experience teaching AMC 10 and Math Counts for Magic Math Plano and Fantastic Mathletes. ",
+    },
+    {
+        name: "Daniel Wang",
+        img: "/defaultusericon.png",
+        description: "Daniel is a talented high school senior who wishes to use his talents in math to benefit his community. His notable achievements include being a USAJMO winner and scoring a 12 on the 2022 AIME. Furthermore, he has tutored high school math for a nonprofit organization named Ace Academy. He looks forward to meeting everyone in class!",
     },
     {
         name: "Yu-Hsiang Yeh",
@@ -76,34 +86,43 @@ export const testimonials = [ // Will only display the first 3 testimonials
     },
 
 ]
-
+export const syllabusLink = "https://drive.google.com/drive/folders/1tjYiyLGpOo569BwbcA4jipNK6BR9GhDz?usp=sharing";
 export const currentClasses = [
+    {
+        name: "Math Fundamentals",
+        cost: "FREE",
+        instructor: "Kevin Wang",
+        schedule: "TBD",
+        location: "Online",
+        difficulty: "AMC 8",
+        syllabusLink: "https://drive.google.com/file/d/1NzF6WVHDTWwQ_Ct21N_6dYg9eW9xj0U1/view?usp=share_link",
+    },
     {
         name: "Counting & Probability",
         cost: "FREE",
         instructor: "Sohum Uttamchandani",
         schedule: "Tue 7-8 CDT",
         location: "Online",
-        description: "Combinatorics for AMC 8 level students",
-        registrationOpen: true,
+        difficulty: "AMC 10/12 - AIME",
+        syllabusLink: "https://drive.google.com/file/d/12szsIbbf5ms-6KSAAYmpmlzViipBi9md/view?usp=share_link",
     },
     {
         name: "Geometry",
         cost: "FREE",
-        instructor: "",
-        schedule: "Thursday 7-8 CDT",
+        instructor: "Yu-Hsiang Yeh",
+        schedule: "Thu 7-8 CDT",
         location: "Online",
-        description: "Geometry for AMC 8 level students",
-        registrationOpen: true,
+        difficulty: "TBD",
+        syllabusLink: "",
     },
     {
         name: "Algebra",
         cost: "FREE",
         instructor: "Leo Li",
-        schedule: "Friday 7-8 CDT",
+        schedule: "Fri 7-8 CDT",
         location: "Online",
-        description: "Algebra for AMC 8 level students",
-        registrationOpen: true,
+        difficulty: "AMC 10",
+        syllabusLink: "https://drive.google.com/file/d/1N2Qwsm-v7mBOh563lJnJ0-Dd2VhBMxXq/view?usp=share_link",
     },
     {
         name: "Number Theory",
@@ -111,8 +130,8 @@ export const currentClasses = [
         instructor: "Nikhil Reddy",
         schedule: "Sat 7-8 CDT",
         location: "Online",
-        description: "Number Theory for AMC 8 level students",
-        registrationOpen: true,
+        difficulty: "AMC 10/12 - AIME",
+        syllabusLink: "https://drive.google.com/file/d/1N2Qwsm-v7mBOh563lJnJ0-Dd2VhBMxXq/view?usp=share_link",
     },
 ]
 
