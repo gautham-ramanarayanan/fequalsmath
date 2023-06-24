@@ -37,7 +37,7 @@ export const instructors = [
     {
         name: "Kevin Wang",
         img: "/kavnwang3.png",
-        description:"Kevin is an upcoming senior attending Lebanon Trail High School. He has years of experience competing at the highest level of math competitions, culminating in a top 24 win at this year's junior national olympiad. Furthermore, he has taught English and math competition courses for over two years, and currently works as a teaching assistant for USA IMO coach Po-Shen Loh. Kevin is incredibly passionate about the success and education of his students, and will work to ensure that every student can reach their fullest potential."
+        description:"Kevin is an rising senior attending Lebanon Trail High School. He has years of experience competing at the highest level of math competitions, culminating in a top 24 win at this year's junior national olympiad. Furthermore, he has taught English and math competition courses for over two years, and currently works as a teaching assistant for USA IMO coach Po-Shen Loh. Kevin is incredibly passionate about the success and education of his students, and will work to ensure that every student can reach their fullest potential."
     },
     {
         name: "Leo Li",
@@ -47,11 +47,12 @@ export const instructors = [
     {
         name: "Nikhil Reddy",
         img: "/nikhilreddy.jpg",
-        description: "Nikhil is an upcoming Sophomore at Wakeland High School. He scored a 6 on this year's AIME and is currently studying Multivariable Calculus and Differential Equations. Nikhil also pursues mathematics thru the Euler Circle Program, led by a former Stanford professor. Nikhil will be teaching Number Theory this summer sessions"
+        description: "Nikhil is an rising Sophomore at Wakeland High School. He scored a 6 on this year's AIME and is currently studying Multivariable Calculus and Differential Equations. Nikhil also pursues mathematics thru the Euler Circle Program, led by a former Stanford professor. Nikhil will be teaching Number Theory this summer sessions"
     },
     {
         name: "Yu-Hsiang Yeh",
-
+        img: "/defaultusericon.png",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     },
     {
         name: "Sohum Uttamchandani",
