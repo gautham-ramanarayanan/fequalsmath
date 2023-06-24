@@ -31,7 +31,7 @@ export const carouselImages = [
     "studentseating.png"
 ];
 
-export const whoweare = "F=Math is a non-profit math competition preparation program taught by winners and qualifiers of the USA Math Olympiad. The curriculum is designed to prepare students for math competitions. Our teachers have experience teaching for organizations such as Magic Math, Daily Challenge, and many others. Additionally, 100% of the program fee will be donated to those in need. F=Math has already raised $5,000 for various charities. We are committed to ensuring that every student can learn not only the skills and intuition to succeed in math competitions, but also the critical thinking and problem solving skills Please reach us at fequalsmath@gmail.com for any questions and concerns.";
+export const whoweare = "F=Math is a non-profit math competition preparation program taught by winners and qualifiers of the USA Math Olympiad. The curriculum is designed to prepare students for math competitions. Our teachers have experience teaching for organizations such as Magic Math, Daily Challenge, and many others. Additionally, 100% of the program fee will be donated to those in need. F=Math has already raised $5,000 for various charities. We are committed to ensuring that every student can learn not only the skills and intuition to succeed in math competitions, but also the critical thinking and problem solving skills necessary for success beyond the classroom. Please reach us at fequalsmath@gmail.com for any questions and concerns.";
 
 export const instructors = [
     {
