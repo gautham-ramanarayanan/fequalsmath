@@ -37,7 +37,7 @@ export const instructors = [
     {
         name: "Kevin Wang",
         img: "/kavnwang3.png",
-        description:"Kevin is an rising senior attending Lebanon Trail High School. He has years of experience competing at the highest level of math competitions, culminating in a top 24 win at last year's junior national olympiad. Furthermore, he has taught English and math competition courses for over two years, and currently works as a teaching assistant for USA IMO coach Po-Shen Loh. Kevin is incredibly passionate about the success and education of his students, and will work to ensure that every student can reach their fullest potential."
+        description:"Kevin is a rising senior attending Lebanon Trail High School. He has years of experience competing at the highest level of math competitions, culminating in a top 24 win at last year's junior national olympiad. Furthermore, he has taught English and math competition courses for over two years, and currently works as a teaching assistant for USA IMO coach Po-Shen Loh. Kevin is incredibly passionate about the success and education of his students, and will work to ensure that every student can reach their fullest potential."
     },
     {
         name: "Leo Li",
@@ -47,17 +47,17 @@ export const instructors = [
     {
         name: "Nikhil Reddy",
         img: "/nikhilreddy.jpg",
-        description: "Nikhil is an rising Sophomore at Wakeland High School. He scored a 6 on this year's AIME and is currently studying Multivariable Calculus and Differential Equations. Nikhil also pursues mathematics thru the Euler Circle Program, led by a former Stanford professor. Nikhil will be teaching Number Theory this summer sessions"
+        description: "Nikhil is a rising Sophomore at Wakeland High School. He scored a 6 on this year's AIME and is currently studying Multivariable Calculus and Differential Equations. Nikhil also pursues mathematics through the Euler Circle Program, led by a former Stanford professor. Nikhil will be teaching Number Theory this summer session."
     },
     {
         name: "Aaron Zhou",
         img: "/defaultusericon.png",
-        description: "Aaron is a rising senior attending Plano West Senior High School. He has earned numerous accolades at the national level in math competitions, being a four-time AMC 10 DHR awardee (top 1%) and a USAJMO Honorable Mention. Furthermore, he has experience teaching AMC 10 and Math Counts for Magic Math Plano and Fantastic Mathletes. ",
+        description: "Aaron is a rising senior attending Plano West Senior High School. He has earned numerous accolades at the national level in math competitions, being a four-time AMC 10 DHR awardee (top 1%) and a USAMO Honorable Mention. Furthermore, he has experience teaching AMC 10 and Math Counts for Magic Math Plano and Fantastic Mathletes. ",
     },
     {
         name: "Daniel Wang",
         img: "/defaultusericon.png",
-        description: "Daniel is a talented high school senior who wishes to use his talents in math to benefit his community. His notable achievements include being a USAJMO winner and scoring a 12 on the 2022 AIME. Furthermore, he has tutored high school math for a nonprofit organization named Ace Academy. He looks forward to meeting everyone in class!",
+        description: "Daniel is a talented high school senior who wishes to use his talents in math to benefit his community. His notable achievements include being a USAMO winner and scoring a 12 on the 2022 AIME. Furthermore, he has tutored high school math for a nonprofit organization named Ace Academy. He looks forward to meeting everyone in class!",
     },
     {
         name: "Yu-Hsiang Yeh",
@@ -67,7 +67,7 @@ export const instructors = [
     {
         name: "Sohum Uttamchandani",
         img: "/defaultusericon.png",
-        description: "Sohum is a high schooler in California. He has qualified for AIME and nearly Junior Math Olympiad, gotten AMC 10 Distinguished Honor Roll, and a earned a perfect score in the most recent AMC 8. In his spare time, Sohum likes to do math, play chess, and practice badminton. Sohum will be teaching Counting and Probability this summer session." 
+        description: "Sohum is a high schooler in California. He has qualified for AIME and nearly qualified for Junior Math Olympiad, gotten AMC 10 Distinguished Honor Roll, and earned a perfect score in the most recent AMC 8. In his spare time, Sohum likes to do math, play chess, and practice badminton. Sohum will be teaching Counting and Probability this summer session." 
     },
 ];
 
@@ -78,7 +78,7 @@ export const testimonials = [ // Will only display the first 3 testimonials
     },
     {
         name: "Jenny C.",
-        comment: "This summer camp has great handouts and I learned a lot from the lecturing and work and help we did! It really enriches math and preps for you."
+        comment: "This summer camp has great handouts and I learned a lot from the lecturing and work and help we did! It really enriches math and prepares you."
     },
     {
         name: "Allen T.",
