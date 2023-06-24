@@ -62,7 +62,7 @@ export const instructors = [
     {
         name: "Yu-Hsiang Yeh",
         img: "/defaultusericon.png",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        description: "Yu-Hsiang is a rising sophomore who has participated in several math and biology competitions, scoring well on both the AIME and the USABO. He also has 2 years of experience teaching Mathcounts/AMC at his school. In his free time, Yu-Hsiang likes to play the piano and the violin. Yu-Hsiang will be teaching Geometry this summer session.",
     },
     {
         name: "Sohum Uttamchandani",
@@ -131,7 +131,7 @@ export const currentClasses = [
         schedule: "Sat 7-8 CDT",
         location: "Online",
         difficulty: "AMC 10/12 - AIME",
-        syllabusLink: "https://drive.google.com/file/d/1N2Qwsm-v7mBOh563lJnJ0-Dd2VhBMxXq/view?usp=share_link",
+        syllabusLink: "https://drive.google.com/file/d/1oHmklKHNJHwgufDyCJKX4yuNsDmHPKPB/view?usp=share_link",
     },
 ]
 
