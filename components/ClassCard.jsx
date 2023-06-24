@@ -7,9 +7,9 @@ export default function ClassCard({ classInformation }) {
         }
         return "Syllabus Unavailable";
     }
-    const textStyle = "text-txt text-center font-medium";
+    const textStyle = "text-txt text-center font-medium ";
     return (
-        <div className="rounded-xl bg-primary-second flex flex-col p-8 shadow-xl min-w-fit min-h-fit block w-md space-y-3">
+        <div className="rounded-xl whitespace-nowrap bg-primary-second flex flex-col p-8 shadow-xl min-w-fit min-h-fit block w-md space-y-3">
             <p className="text-primary text-2xl font-bold text-center">{classInformation.name}</p>
             <p className={textStyle}>Taught by {classInformation.instructor}</p>
             <p className={textStyle}>Price: {classInformation.cost}</p>

@@ -2,7 +2,7 @@ export default function Hero() {
     return (
         <div className="w-screen container flex justify-center items-center">
                 <div className="z-10 absolute space-y-4 pt-8">
-                    <h1 className="text-5xl text-primary font-bold text-center xl:text-7xl ">
+                    <h1 className="text-3xl text-primary font-bold text-center xl:text-7xl ">
                         Training the Next<br/>Generation of Winners
                         </h1>
                     <p className="xl:text-xl text-md font-semibold text-center text-primary">
