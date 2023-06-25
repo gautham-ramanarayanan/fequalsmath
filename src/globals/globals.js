@@ -92,7 +92,7 @@ export const currentClasses = [
         name: "Math Fundamentals",
         cost: "FREE",
         instructor: "Kevin Wang",
-        schedule: "Syb 7-8 CDT",
+        schedule: "Sun 7-8 CDT",
         location: "Online",
         difficulty: "AMC 8",
         syllabusLink: "https://drive.google.com/file/d/1NzF6WVHDTWwQ_Ct21N_6dYg9eW9xj0U1/view?usp=share_link",

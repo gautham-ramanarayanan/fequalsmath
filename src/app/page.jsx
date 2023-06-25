@@ -7,6 +7,7 @@ import { carouselImages, whoweare, instructors, testimonials, currentClasses, cu
 import Courses from "../../components/Courses";
 import SignUpForm from "../../components/SignUpForm";
 import GoogleSignUpForm from "../../components/GoogleSignUpForm";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -16,10 +17,15 @@ export default function Home() {
     <NavigationBar />
     <main className="min-h-fit bg-background" id="main">
             <div className="block ">
-                <section className="max-h-96 flex flex-col justify-center -nowrap mb-12">
+                <section className="max-h-96 flex flex-col justify-center items-center -nowrap mb-12">
                     <section className="flex max-h-96 mx-auto mb-12">
                         <Hero className="flex-grow basis-full" />
                     </section>
+                        <Link href="#Enroll" className="hover:opacity-70 scroll-smooth sm:hidden">
+                            <div className="text-txt-light inline bg-primary px-8 py-4 rounded-xl flex justify-center items-center">
+                                <p className="font-bold inline text-3xl">Enroll Now!</p>
+                            </div>
+                        </Link>
                 </section>
             </div>
             <div className="p-4 py-8 mx-auto flex flex-col items-center justify-center max-w-4xl mb-16">
