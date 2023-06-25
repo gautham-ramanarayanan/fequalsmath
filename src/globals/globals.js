@@ -55,6 +55,11 @@ export const instructors = [
         description: "Yu-Hsiang is a rising sophomore who has participated in several math and biology competitions, scoring well on both the AIME and the USABO. He also has 2 years of experience teaching Mathcounts/AMC at his school. In his free time, he likes to play the piano and the violin. Yu-Hsiang will be teaching Geometry this summer session.",
     },
     {
+        name: "Daniel Wang",
+        img: "/danielwang.jpg",
+        description: "Daniel is a talented high school senior who wishes to use his talents in math to benefit his community. His notable achievements include being a USAMO winner and scoring a 12 on the 2022 AIME. Furthermore, he has tutored high school math for a nonprofit organization named Ace Academy. He looks forward to meeting everyone in class!",
+    },
+    {
         name: "Sohum Uttamchandani",
         img: "/defaultusericon.png",
         description: "Sohum is a high schooler in California. He has qualified for AIME and nearly qualified for Junior Math Olympiad, gotten AMC 10 Distinguished Honor Roll, and earned a perfect score in the most recent AMC 8. In his spare time, Sohum likes to do math, play chess, and practice badminton. Sohum will be teaching Counting and Probability this summer session." 
@@ -63,11 +68,6 @@ export const instructors = [
         name: "Aaron Zhou",
         img: "/defaultusericon.png",
         description: "Aaron is a rising senior attending Plano West Senior High School. He has earned numerous accolades at the national level in math competitions, being a four-time AMC 10 DHR awardee (top 1%) and a USAMO Honorable Mention. Furthermore, he has experience teaching AMC 10 and Math Counts for Magic Math Plano and Fantastic Mathletes. ",
-    },
-    {
-        name: "Daniel Wang",
-        img: "/defaultusericon.png",
-        description: "Daniel is a talented high school senior who wishes to use his talents in math to benefit his community. His notable achievements include being a USAMO winner and scoring a 12 on the 2022 AIME. Furthermore, he has tutored high school math for a nonprofit organization named Ace Academy. He looks forward to meeting everyone in class!",
     },
 ];
 
