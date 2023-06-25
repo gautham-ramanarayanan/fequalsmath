@@ -50,6 +50,16 @@ export const instructors = [
         description: "Nikhil is a rising Sophomore at Wakeland High School. He scored a 6 on this year's AIME and is currently studying Multivariable Calculus and Differential Equations. Nikhil also pursues mathematics through the Euler Circle Program, led by a former Stanford professor. Nikhil will be teaching Number Theory this summer session."
     },
     {
+        name: "Yu-Hsiang Yeh",
+        img: "/yuhsiang.png",
+        description: "Yu-Hsiang is a rising sophomore who has participated in several math and biology competitions, scoring well on both the AIME and the USABO. He also has 2 years of experience teaching Mathcounts/AMC at his school. In his free time, he likes to play the piano and the violin. Yu-Hsiang will be teaching Geometry this summer session.",
+    },
+    {
+        name: "Sohum Uttamchandani",
+        img: "/defaultusericon.png",
+        description: "Sohum is a high schooler in California. He has qualified for AIME and nearly qualified for Junior Math Olympiad, gotten AMC 10 Distinguished Honor Roll, and earned a perfect score in the most recent AMC 8. In his spare time, Sohum likes to do math, play chess, and practice badminton. Sohum will be teaching Counting and Probability this summer session." 
+    },
+    {
         name: "Aaron Zhou",
         img: "/defaultusericon.png",
         description: "Aaron is a rising senior attending Plano West Senior High School. He has earned numerous accolades at the national level in math competitions, being a four-time AMC 10 DHR awardee (top 1%) and a USAMO Honorable Mention. Furthermore, he has experience teaching AMC 10 and Math Counts for Magic Math Plano and Fantastic Mathletes. ",
@@ -58,16 +68,6 @@ export const instructors = [
         name: "Daniel Wang",
         img: "/defaultusericon.png",
         description: "Daniel is a talented high school senior who wishes to use his talents in math to benefit his community. His notable achievements include being a USAMO winner and scoring a 12 on the 2022 AIME. Furthermore, he has tutored high school math for a nonprofit organization named Ace Academy. He looks forward to meeting everyone in class!",
-    },
-    {
-        name: "Yu-Hsiang Yeh",
-        img: "/defaultusericon.png",
-        description: "Yu-Hsiang is a rising sophomore who has participated in several math and biology competitions, scoring well on both the AIME and the USABO. He also has 2 years of experience teaching Mathcounts/AMC at his school. In his free time, Yu-Hsiang likes to play the piano and the violin. Yu-Hsiang will be teaching Geometry this summer session.",
-    },
-    {
-        name: "Sohum Uttamchandani",
-        img: "/defaultusericon.png",
-        description: "Sohum is a high schooler in California. He has qualified for AIME and nearly qualified for Junior Math Olympiad, gotten AMC 10 Distinguished Honor Roll, and earned a perfect score in the most recent AMC 8. In his spare time, Sohum likes to do math, play chess, and practice badminton. Sohum will be teaching Counting and Probability this summer session." 
     },
 ];
 
@@ -92,7 +92,7 @@ export const currentClasses = [
         name: "Math Fundamentals",
         cost: "FREE",
         instructor: "Kevin Wang",
-        schedule: "TBD",
+        schedule: "Syb 7-8 CDT",
         location: "Online",
         difficulty: "AMC 8",
         syllabusLink: "https://drive.google.com/file/d/1NzF6WVHDTWwQ_Ct21N_6dYg9eW9xj0U1/view?usp=share_link",
