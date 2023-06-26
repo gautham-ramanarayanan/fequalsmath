@@ -113,7 +113,7 @@ export const currentClasses = [
         schedule: "Thu 7-8 CDT (6/29-8/3)",
         location: "Online",
         difficulty: "TBD",
-        syllabusLink: "",
+        syllabusLink: "https://drive.google.com/file/d/1cheale-NPPOTQRbGt-di7hHZ7sMYCA34/view?usp=share_link",
     },
     {
         name: "Algebra",
