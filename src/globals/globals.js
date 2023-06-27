@@ -47,7 +47,7 @@ export const instructors = [
     {
         name: "Nikhil Reddy",
         img: "/nikhilreddy.jpg",
-        description: "Nikhil is a rising Sophomore at Wakeland High School. He scored a 6 on this year's AIME and is currently studying Multivariable Calculus and Differential Equations. Nikhil also pursues mathematics through the Euler Circle Program, led by a former Stanford professor. Nikhil will be teaching Number Theory this summer session."
+        description: "Nikhil is a rising junior at Wakeland High School. He scored a 6 on this year's AIME and is currently studying Multivariable Calculus and Differential Equations. Nikhil also pursues mathematics through the Euler Circle Program, led by a former Stanford professor. Nikhil will be teaching Number Theory this summer session."
     },
     {
         name: "Yu-Hsiang Yeh",
