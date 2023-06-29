@@ -26,6 +26,7 @@ export default function Home() {
                                 <p className="font-bold inline text-3xl">Enroll Now!</p>
                             </div>
                         </Link>
+                        <h1 className="text-xl sm:hidden text-center p-4">Please read the form after you submit!</h1>
                 </section>
             </div>
             <div className="p-4 py-8 mx-auto flex flex-col items-center justify-center max-w-4xl mb-16">
