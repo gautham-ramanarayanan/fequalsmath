@@ -69,6 +69,11 @@ export const instructors = [
         img: "/defaultusericon.png",
         description: "Sohum is a high schooler in California. He has qualified for AIME and nearly qualified for Junior Math Olympiad, gotten AMC 10 Distinguished Honor Roll, and earned a perfect score in the most recent AMC 8. In his spare time, Sohum likes to do math, play chess, and practice badminton. Sohum will be teaching Counting and Probability this summer session." 
     },
+    {
+        name: "Sahan Wijetunga",
+        img: "/defaultusericon.png",
+        description: "Sahan is a high schooler in California. He has qualified for AIME and USACO Gold. In his spare time, Sahan likes to do math, play chess, and play video games. Sahan won't be teaching any classes for the time being, and will instead be working on developing problems for upcoming competition(s).",
+    },
 ];
 
 export const testimonials = [ // Will only display the first 3 testimonials
